@@ -8,7 +8,14 @@ How to Run: (also described in the link)
    - DOSBox: https://sourceforge.net/projects/dosbox/
 2. Copy and paste the code to a new emu8086 file to compile or skip this step by downloading the exe file.
 3. To run the .exe file, enter the following to DOSBox:
-   mount [drive] [pathtoexefile]
-   [drive]:
-   (optionally) cd [repositoryfortheexefile]
-   [file].exe
+   - mount [drive] [pathtoexefile]
+   - [drive]:
+   - (optionally) cd [repositoryfortheexefile]
+   - [file].exe
+   Example:
+   - mount c c:\emu8086
+   - c:
+   - cd mybuild
+   - tetris.exe
+     
+No score implementation yet. Hopefully in the future.
